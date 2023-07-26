@@ -23,9 +23,9 @@ await agent.post({
         {
           $type: 'app.bsky.richtext.facet#link',
           uri: 'https://github.com/aliceisjustplaying/atproto-starter-kit',
-        }
-      ]
-    }
+        },
+      ],
+    },
   ],
   embed: {
     $type: 'app.bsky.embed.external',
